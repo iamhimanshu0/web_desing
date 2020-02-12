@@ -1,0 +1,164 @@
+.banner_color{
+
+      color: black;
+}
+
+.section_img{
+      margin-top: 4%;
+      margin-bottom: 2%;
+}
+.section_img a{
+      text-overflow: none;
+}
+
+.section_img img:hover{
+      /*transform: scale(1.1);*/
+      position: relative; 
+      top: -10px;
+}
+.little_about{
+      margin-top: 5%;
+      margin-bottom: 5%;
+
+}
+.little_about .icon {
+
+      font-size: 100px;
+      text-decoration: justify;
+      color: #ef6c5 !important;
+}
+.destinations{
+      margin-top: 5%;
+      margin-bottom: 5%;
+}
+
+/* Container holding the image and the text */
+.destinations .container {
+  position: relative;
+}
+
+/* Bottom right text */
+.destinations .text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.destinations .des_photo:hover {
+      position: relative; 
+      top: -20px;
+}
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #333 !important;
+}
+#footer h5{
+      padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+      padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+      font-size:25px;
+      -webkit-transition: .5s all ease;
+      -moz-transition: .5s all ease;
+      transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+      font-size:30px;
+      margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+      color:#ffffff;
+}
+#footer ul.social li a:hover{
+      color:#eeeeee;
+}
+#footer ul.quick-links li{
+      padding: 3px 0;
+      -webkit-transition: .5s all ease;
+      -moz-transition: .5s all ease;
+      transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+      padding: 3px 0;
+      margin-left:5px;
+      font-weight:700;
+}
+#footer ul.quick-links li a i{
+      margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+#footer .some{
+    font-weight: 700;
+    color:#ffffff;
+}
+
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form .form-control{
+    border-radius:1rem;
+}
+
+@media (max-width:767px){
+      #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+
+
+
+@media (max-width: 767px) {
+  .banner{
+      height: 420px !important;
+      width: 100% !important;
+  }
+
+  .trip{
+      text-align: center;
+  }
+
+}
